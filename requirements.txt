@@ -1,2 +1,3 @@
-python-telegram-bot==20.7
-google-generativeai==0.8.3
+python-telegram-bot==20.7.0
+google-generativeai
+# Cache buster: 20260422-v20.7
