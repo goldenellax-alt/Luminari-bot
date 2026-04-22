@@ -1,7 +1,9 @@
-import pkg_resources; print("PTB version:", pkg_resources.get_distribution("python-telegram-bot").version)
+import telegram
+print(f"PTB version: {telegram.__version__}")
+import google.generativeai as genai
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
-import google.generativeai as genaiimportort telegram import Update
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ==== PASTE YOUR NEW KEYS HERE ====
 TELEGRAM_TOKEN = "8515547267:AAHY6KF6DeU8_wS3XeJ4Zz3kgYVqKJ2JRgM"  
