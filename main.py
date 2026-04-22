@@ -1,6 +1,6 @@
+import pkg_resources; print("PTB version:", pkg_resources.get_distribution("python-telegram-bot").version)
 import os
-import google.generativeai as genai
-from telegram import Update
+import google.generativeai as genaiimportort telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ==== PASTE YOUR NEW KEYS HERE ====
